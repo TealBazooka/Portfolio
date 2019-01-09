@@ -1,0 +1,55 @@
+/*------------------------------
+Css for Cory's Portfolio Website
+using bootsrap 4
+------------------------------*/
+
+body {
+    margin:0
+}
+
+/*------------------------------   
+          Header Code
+-------------------------------*/
+header {
+    display: block;
+    width: 100%;
+    min-height: 450px;
+    background-color: #2F3A70;
+    overflow: auto;
+    padding-bottom: 15px;
+}
+
+.headerLogo {
+    display: flex;
+    width: 250px;
+    margin: 30px auto 15px auto;
+}
+
+/* Header Code - Social Media Buttons */
+.socialMediaBar {
+    display: flex;
+    width: 250px;
+    margin:0 auto;
+}
+
+.btn-socialMedia {
+    width: 48px;
+    height: 48px;
+}
+
+/* Header Code - Nav Buttons */
+.nav-item {
+    margin-bottom: 30px;
+}
+
+.btn-nav {
+    color: #292929;
+    font-weight: bold;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-nav:hover {
+    background-color: #292929;
+    border-color: white;
+}
