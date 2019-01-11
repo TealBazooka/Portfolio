@@ -67,12 +67,14 @@ section {
 }
 
 .projectPreview {
-    margin: 20px;
-    background-color: black;
+    margin-bottom: 20px
 }
 /* issue */
-img {
-    height: 200px;
-    width: 60px;
+.projectPreview img {
+    width: 100%;
     background-color: teal;
+}
+
+.projectPreview h2 {
+    margin-top: 10px;
 }
