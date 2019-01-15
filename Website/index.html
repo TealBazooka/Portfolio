@@ -52,33 +52,48 @@
 
     <div class="container">
       <!-- this section holds my top 5 projects to date -->
+      <!-- make this a slideshow??? -->
       <section id="portfolio">
         <h1>Portfolio</h1>
         <div class="row justify-content-center">
-          <div class="projectPreview col-10">
-            <h2>This Project</h2>
-            <img src="https://via.placeholder.com/600x400" alt="">
-            <p>This is a short description of the project shown above.</p>
-          </div>
-          <div class="projectPreview col-10">
-            <h2>This Project</h2>
-            <img src="https://via.placeholder.com/600x400" alt="">
-            <p>This is a short description of the project shown above.</p>
-          </div>
-          <div class="projectPreview col-10">
-            <h2>This Project</h2>
-            <img src="https://via.placeholder.com/600x400" alt="">
-            <p>This is a short description of the project shown above.</p>
-          </div>
-          <div class="projectPreview col-10">
-            <h2>This Project</h2>
-            <img src="https://via.placeholder.com/600x400" alt="">
-            <p>This is a short description of the project shown above.</p>
-          </div>
-          <div class="projectPreview col-10">
-            <h2>This Project</h2>
-            <img src="https://via.placeholder.com/600x400" alt="">
-            <p>This is a short description of the project shown above.</p>
+          <div class="col-10">
+
+            <div class="projectPreview row">
+              <img class="col-7 imgFit" src="https://via.placeholder.com/600x400" alt="">
+              <div class="col-5 d-flex align-items-center">
+                <div class="col-12 text-center justify-content-center">
+                  <h2>Project Title</h2>
+                  <p>
+                    This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="projectPreview row">
+              <img class="col-7 imgFit" src="https://via.placeholder.com/600x400" alt="">
+              <div class="col-5 d-flex align-items-center">
+                <div class="col-12 text-center justify-content-center">
+                  <h2>Project Title</h2>
+                  <p>
+                    This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="projectPreview row">
+              <img class="col-7 imgFit" src="https://via.placeholder.com/600x400" alt="">
+              <div class="col-5 d-flex align-items-center">
+                <div class="col-12 text-center justify-content-center">
+                  <h2>Project Title</h2>
+                  <p>
+                    This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -87,22 +102,64 @@
       <section id="resume">
         <h1>Resume</h1>
         <div class="row justify-content-center">
-          <!-- School and Experience -->
-          <div class="col-sm-5 col-10">
+          <!-- Education -->
+          <div class="col-lg-6 col-md-7 col-sm-10">
             <h2>Education</h2>
-            <h3>Colpoly</h3>
-            <p>Major stuff</p>
-            <h3>UCLA</h3>
-            <p>this is education description</p>
-          </div>
-          <!-- Skills and tools -->
-          <div class="col-sm-5 col-10">
-            <h2>Skills</h2>
+
+            <h4>California Polytechnic State University</h4>
             <ul>
-              <li>HTML & CSS</li>
+              <li>Bachelor of Science in Graphic Communication 2017</li>
+              <li>Minor in Computer Science 2017</li>
             </ul>
 
-            <h2>Tools</h2>
+            <h4>UCLA Extensions School</h4>
+            <ul>
+              <li>Certificate for UX & UI Design (in Progress)</li>
+            </ul>
+
+          <!-- experience -->
+            <h2>Experience</h2>
+            <h4>Right View Pro: Rolling Hills, CA</h4>
+            <h5>Freelance Web Designer & Developer</h5>
+            <h5>JUNE 2017 - JUNE 2018</h5>
+            <p>
+              Designed and developed a website to replace and improve on a previous version. In addition I was tasked with researching and implementing a simple content management system to make updates significantly faster and easier for a non web developer to update.
+            </p>
+
+            <h4>Bushiroad: Walnut, CA</h4>
+            <h5>Design, Event, and Sales Intern</h5>
+            <h5>JUNE 2015 - SEPTEMBER 2015</h5>
+            <p>
+                Interned for a Japanese playing card game company with the top three popular playing card games available being -Weiss Schwarz, Cardfight!!! Vanguard, and Future Card Buddyfight, in addition to several video games. Here I assisted the manager in event preparations, sales calls, warehouse organization, and design projects.
+            </p>
+          </div>
+
+          <!-- column spacer for large displays -->
+          <div class="colSpacer col-lg-1"></div>
+
+          <!-- Skills and tools -->
+          <div class="col-lg-3 col-md-4 col-sm-10">
+            <h2>Skills</h2>
+            <ul>
+              <li>UX & UI Design</li>
+              <li>Wire framing</li>
+              <li>Front End Web Development</li>
+              <li>User Testing</li>
+              <li>Game Design</li>
+              <li>Graphic Design</li>
+            </ul>
+
+            <h2>Technical Skills</h2>
+            <ul>
+              <li>Adobe Creative Suite</li>
+              <li>InVision Prototyping</li>
+              <li>Agile Development</li>
+              <li>HTML & CSS</li>
+              <li>Javascript</li>
+              <li>GitHub</li>
+              <li>Python</li>
+              <li>Java</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -110,7 +167,21 @@
       <!-- this is my bio section, get to know me -->
       <section id="aboutMe">
         <h1>About Me</h1>
-        <div class="row justify-content-center"></div>
+        <div class="row justify-content-center">
+            <!-- Education -->
+            <div class="col-md-5 col-sm-10">
+              <!-- make a slideshow for multiple images -->
+              <img class="imgFit" src="https://via.placeholder.com/600x400" alt="Picture of Cory">
+            </div>
+  
+            <!-- Skills and tools -->
+            <div class="col-md-5 col-sm-10">
+              <h2>Bio:</h2>
+              <p>
+                  I really love to be creative, whether I am making things or tackling tough puzzles, I love to approach projects from different angles to find the best solution. This is why I fell in love with games: video games, board games, and sports alike. They all give me an endless supply of puzzles to solve and challenges to apply myself to. My passion for games pushes me to add a twist of play to everything I make, so that other people can enjoy my work as much as I enjoy making it.
+              </p>
+            </div>
+          </div>
       </section>
 
       <!-- This section has an email form to contact me -->

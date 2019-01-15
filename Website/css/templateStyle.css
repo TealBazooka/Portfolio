@@ -2,9 +2,22 @@
 Css for Cory's Portfolio Website
 using bootsrap 4
 ------------------------------*/
-
+/* Misc classes */
 body {
     margin:0
+}
+.imgFit {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    align-self: center
+}
+
+/*------------------------------   
+          Header Code
+-------------------------------*/
+h5 { 
+    /* make a thin font */
 }
 
 /*------------------------------   
@@ -65,16 +78,19 @@ header {
 section {
     margin-top: 30px;
 }
-
+/* Portfolio */
 .projectPreview {
     margin-bottom: 20px
 }
-/* issue */
-.projectPreview img {
-    width: 100%;
-    background-color: teal;
-}
-
 .projectPreview h2 {
     margin-top: 10px;
 }
+
+/* Resume */
+@media only screen and (min-width: 768px) {
+    .colSpacer {
+        width:0;
+    }
+}
+
+/* About Me */
