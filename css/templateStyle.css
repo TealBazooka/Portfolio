@@ -85,6 +85,11 @@ nav {
     border-color: white;
 }
 
+.active {
+    background-color: #292929!important;
+    border-color: white !important;
+}
+
 .backFlip {
     animation: do-a-backflip 2s;
 }
