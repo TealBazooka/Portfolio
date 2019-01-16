@@ -12,9 +12,8 @@
     <link rel="stylesheet" href="css/templateStyle.css">
   </head>
   <body>
-    <header class="">
+    <header>
       <div class="container">
-
         <!-- CLICK ME!!! -->
         <img id="myLogo" class="headerLogo" src="images/AltLogo.gif" alt="Cory's logo">
 
@@ -34,29 +33,33 @@
           </li>
         </ul>
 
-        <!-- Single page navigation buttons (href to id's) -->
-        <ul class="d-flex nav justify-content-around">
-          <li class="nav-item col-10 col-md-6 col-lg-3">
-            <a class="btn btn-primary btn-nav nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item col-10 col-md-6 col-lg-3">
-            <a class="btn btn-primary btn-nav nav-link" href="#resume">Resume</a>
-          </li>
-          <li class="nav-item col-10 col-md-6 col-lg-3">
-            <a class="btn btn-primary btn-nav nav-link" href="#aboutMe">About Me</a>
-          </li>
-          <li class="nav-item col-10 col-md-6 col-lg-3">
-            <a class="btn btn-primary btn-nav nav-link" href="#contactMe">Contact</a>
-          </li>
-        </ul>
       </div>
     </header>
+
+    <nav>
+      <!-- Single page navigation buttons (href to id's) -->
+      <ul class="d-flex nav justify-content-around container">
+          <li class="nav-item col-10 col-md-3">
+            <a class="btn btn-primary btn-nav nav-link" href="#portfolioAnchor">Portfolio</a>
+          </li>
+          <li class="nav-item col-10 col-md-3">
+            <a class="btn btn-primary btn-nav nav-link" href="#resumeAnchor">Resume</a>
+          </li>
+          <li class="nav-item col-10 col-md-3">
+            <a class="btn btn-primary btn-nav nav-link" href="#aboutAnchor">About Me</a>
+          </li>
+          <li class="nav-item col-10 col-md-3">
+            <a class="btn btn-primary btn-nav nav-link" href="#contactAnchor">Contact</a>
+          </li>
+        </ul>
+    </nav>
 
     <div class="container">
 
       <!-- this section holds my top 5 projects to date -->
       <!-- make this a slideshow??? -->
       <section id="portfolio">
+        <a id="portfolioAnchor"></a>
         <h1>Portfolio</h1>
         <div class="row justify-content-center">
           <div class="col-10">
@@ -91,6 +94,7 @@
 
       <!-- this section holds snippets of my resume -->
       <section id="resume">
+        <a id="resumeAnchor"></a>
         <h1>Resume</h1>
         <div class="row justify-content-center">
           <!-- Education -->
@@ -159,6 +163,7 @@
 
       <!-- this is my bio section, get to know me -->
       <section id="aboutMe">
+        <a id="aboutAnchor"></a>
         <h1>About Me</h1>
         <div class="row justify-content-center">
           <!-- Education -->
@@ -179,6 +184,7 @@
 
       <!-- This section has an email form to contact me -->
       <section id="contactMe">
+        <a id="contactAnchor"></a>
         <h1>Contact Me</h1>
         <form class="row justify-content-center">
           <div class="form-group col-10">
