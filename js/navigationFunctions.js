@@ -4,7 +4,7 @@ $(".nav-link").on("click", function() {
 
 // toggle hamburger menu
 $("#bars").on("click", function() {
-    if ($(this).attr("class") === "fas fa-bars") {
+    if ($(this).attr("class") == "fas fa-bars") {
         $(this).attr("class", "fas fa-times");
     }
     else {
