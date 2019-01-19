@@ -4,12 +4,12 @@ $(".nav-link").on("click", function() {
 });
 
 // toggle hamburger menu
-$("#bars").on("click", function() {
-    if ($(this).attr("class") == "fas fa-bars") {
-        $(this).attr("class", "fas fa-times");
+$("#hamburgerButton").on("click", function() {
+    if ($("#bars").attr("class") == "fas fa-bars") {
+        $("#bars").attr("class", "fas fa-times");
     }
-    else if ($(this).attr("class") == "fas fa-times") {
-        $(this).attr("class", "fas fa-bars");
+    else if ($("#bars").attr("class") == "fas fa-times") {
+        $("#bars").attr("class", "fas fa-bars");
     }
 });
 
