@@ -9,9 +9,16 @@ body {
 }
 .imgFit {
     width: 100%;
-    height: 100%;
     overflow:hidden;
     align-self: center;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.hide {
+    display: none;
 }
 
 /*------------------------------   
@@ -39,11 +46,6 @@ nav {
     background-color: #2F3A70;
     top: 0;
     z-index: 1;
-}
-
-.fixed {
-    position: fixed;
-    top: 0;
 }
 
 .headerLogo {
@@ -122,14 +124,14 @@ nav {
 }
 
 /* Anchor Point Adjustments for sticky nav */
-#resumeAnchor {
+#portfolioAnchor {
     display: block;
     position: relative;
     top: -100px;
     visibility: hidden;
 }
 
-#portfolioAnchor {
+#resumeAnchor {
     display: block;
     position: relative;
     top: -100px;
