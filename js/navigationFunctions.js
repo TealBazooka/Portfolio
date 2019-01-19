@@ -8,7 +8,7 @@ $("#bars").on("click", function() {
     if ($(this).attr("class") == "fas fa-bars") {
         $(this).attr("class", "fas fa-times");
     }
-    else {
+    else if ($(this).attr("class") == "fas fa-times") {
         $(this).attr("class", "fas fa-bars");
     }
 });
