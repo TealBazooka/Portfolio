@@ -45,6 +45,10 @@
       </ul>
 
       <div id="navigation" class="collapse navbar-collapse">
+
+        <!-- This spacer is for the mobile menu to space correctly -->
+        <div class="menuPadding" style="height: 20px"></div>
+
         <ul class="navbar-nav mr-auto nav justify-content-around container">
           <li class="nav-item col-12 col-md-3">
             <a class="btn btn-primary btn-nav nav-link" href="#portfolioAnchor">Portfolio</a>
@@ -59,8 +63,13 @@
             <a class="btn btn-primary btn-nav nav-link" href="#contactAnchor">Contact</a>
           </li>
         </ul>
+        
+        <!-- This spacer is for the mobile nav to have some space at the bottom -->
+        <div class="menuPadding" style="height: 40px"></div>
       </div>
+
     </nav>
+    <!-- When the nav becomes fixed this nav holds the space so no elements shift -->
     <nav id="stickySpacer" class="hide"></nav>
 
     <div class="container">
@@ -221,7 +230,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="js/backFlip.js"></script>
-    <script src="js/navigationFunctions.js"></script>
+    <script type="text/javascript" src="js/backFlip.js"></script>
+    <script type="text/javascript" src="js/navigationFunctions.js"></script>
   </body>
 </html>

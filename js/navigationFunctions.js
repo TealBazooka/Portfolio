@@ -3,13 +3,11 @@
 var swapMenuIcon = function swapMenuIcon() {
     //get the hamburger menu button
     var menuButton = document.getElementById("hamburgerButton");
-    if (!menuButton.classList.contains('collapsed')) {
-        
-        $("#bars").attr("class", "fas fa-bars");
+    if ($("#bars").attr("class") === "fas fa-bars") {
+        $("#bars").attr("class", "fas fa-times");
     }
     else {
-        console.log("got here");
-        $("#bars").attr("class", "fas fa-times");
+        $("#bars").attr("class", "fas fa-bars");
     }
 }
 //Listeners for changing icon
