@@ -1,3 +1,4 @@
+// collapse dropdown hamburger menu on link click
 $(".nav-link").on("click", function() {
     $('.collapse').collapse('hide');
 });
@@ -11,3 +12,5 @@ $("#bars").on("click", function() {
         $(this).attr("class", "fas fa-bars");
     }
 });
+
+// My sticky nav code (for mobile compatibility)
