@@ -4,6 +4,9 @@ using bootsrap 4
 ------------------------------*/
 
 /* Misc classes */
+html {
+  scroll-behavior: smooth;
+}
 body {
     margin: -1px 0 1px 0;
 }
@@ -48,6 +51,10 @@ nav {
     padding:0;
 }
 
+#stickySpacer {
+    height: 80px;
+}
+
 .menuPadding {
     display: none;
     width: 100%;
@@ -56,6 +63,13 @@ nav {
 @media only screen and (max-width: 768px) {
     .menuPadding {
         display: block;
+    }
+    #stickySpacer {
+        height: 50px;
+        display: block;
+    }
+    #stickyNav {
+        position: fixed;
     }
 }
 
@@ -149,28 +163,28 @@ nav {
 #portfolioAnchor {
     display: block;
     position: relative;
-    top: -100px;
+    top: -80px;
     visibility: hidden;
 }
 
 #resumeAnchor {
     display: block;
     position: relative;
-    top: -100px;
+    top: -80px;
     visibility: hidden;
 }
 
 #aboutAnchor {
     display: block;
     position: relative;
-    top: -100px;
+    top: -80px;
     visibility: hidden;
 }
 
 #contactAnchor {
     display: block;
     position: relative;
-    top: -100px;
+    top: -80px;
     visibility: hidden;
 }
 
