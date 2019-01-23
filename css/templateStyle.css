@@ -60,13 +60,13 @@ nav {
     height: 80px;
 }
 
-.menuPadding {
+.mobileSpacer {
     display: none;
     width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
-    .menuPadding {
+    .mobileSpacer {
         display: block;
     }
     #stickySpacer {
@@ -145,7 +145,6 @@ nav {
     border-color: #2F3A70;
     padding:0;
     margin: -13px 0 -13px 0;
-    border-radius: 0;
 }
 
 .hamburger:hover {
