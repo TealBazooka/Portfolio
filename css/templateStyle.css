@@ -51,6 +51,11 @@ nav {
     padding:0;
 }
 
+#navigation ul{
+    margin: 0 auto;
+    padding: 0;
+}
+
 #stickySpacer {
     height: 80px;
 }
@@ -70,6 +75,8 @@ nav {
     }
     #stickyNav {
         position: fixed;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
 

@@ -14,6 +14,8 @@
   <body data-spy="scroll" data-target="nav">
     <header>
       <div class="container">
+
+          <div class="menuPadding" style="height: 20px"></div>
         <!-- CLICK ME!!! -->
         <img id="myLogo" class="headerLogo" src="images/AltLogo.gif" alt="Cory's logo">
 
@@ -39,7 +41,7 @@
     <!-- When the nav becomes fixed this nav holds the space so no elements shift -->
     <nav id="stickySpacer" class="hide"></nav>
 
-    <nav id="stickyNav" class="navbar navbar-expand-md justify-content-center">
+    <nav id="stickyNav" class="navbar navbar-expand-md">
       <!-- Single page navigation buttons (href to id's) -->
       <ul class="navbar-toggler nav justify-content-start container">
           <button id="hamburgerButton" class="btn hamburger" href="#" type="button" data-toggle="collapse" data-target="#navigation">
@@ -50,9 +52,9 @@
       <div id="navigation" class="collapse navbar-collapse">
 
         <!-- This spacer is for the mobile menu to space correctly -->
-        <div class="menuPadding" style="height: 20px"></div>
+        <div class="menuPadding" style="height: 25px"></div>
 
-        <ul class="navbar-nav mr-auto nav justify-content-around container">
+        <ul class="navbar-nav mr-auto nav d-flex justify-content-around container">
           <li class="nav-item col-12 col-md-3">
             <a class="btn btn-primary btn-nav nav-link" href="#portfolioAnchor">Portfolio</a>
           </li>
