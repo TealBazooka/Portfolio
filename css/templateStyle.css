@@ -9,11 +9,11 @@ html {
 }
 body {
     margin: -1px 0 1px 0;
+    font-family: 'Roboto', sans-serif;
 }
 .imgFit {
     width: 100%;
     overflow:hidden;
-    align-self: center;
 }
 .sticky {
     position: fixed;
@@ -23,12 +23,20 @@ body {
 .hide {
     display: none;
 }
-
 /*------------------------------   
           Fonts
 -------------------------------*/
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
 h5 { 
-    /* make a thin font */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 /*------------------------------   
@@ -126,6 +134,10 @@ nav {
     border-color: white;
 }
 
+.btn-nav:active {
+    background-color: #030303;
+}
+
 .active {
     background-color: #292929!important;
     border-color: white !important;
@@ -202,10 +214,39 @@ section {
 }
 /* Portfolio */
 .projectPreview {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 .projectPreview h2 {
     margin-top: 10px;
+}
+.btn-project {
+    text-align: center;
+    padding: 0 30px;
+    margin: 0 10px 15px 0;
+    border-radius: 15px;
+    border: solid #2F3A70;
+    border-width: 5px;
+    transition: border-radius .5s;
+    -webkit-transition: border-radius .5s;
+    
+    color: #2F3A70;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.btn-project:hover {
+    border-color: #292929;
+    color: white !important;
+    background-color: #292929;
+    border-radius: 0;
+}
+
+.btn-project:active {
+    border-color: #030303;
+    color: white !important;
+    background-color: #030303;
+    border-radius: 0;
 }
 
 /* Resume */
@@ -216,7 +257,27 @@ section {
 }
 
 /* About Me */
+.bio-img {
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
 
+/* Contact Me */
+#contactMe {
+    margin-bottom: 50px;
+}
+
+.contact-link {
+    padding: 0;
+}
+
+.ContactMediaBar {
+    margin: 20px auto 20px auto;
+}
 /*-----------------------------------
-            
+            Footer
 ------------------------------------*/
+footer {
+    height: 250px;
+    background-color: #292929;
+}
