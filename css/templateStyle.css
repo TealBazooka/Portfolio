@@ -11,6 +11,11 @@ body {
     margin: -1px 0 1px 0;
     font-family: 'Roboto', sans-serif;
 }
+hr {
+    height: 3px;
+    margin-bottom: 35px;    
+    border-top: 2px solid rgba(0,0,0,.2)
+}
 .imgFit {
     width: 100%;
     overflow:hidden;
@@ -37,6 +42,12 @@ h2 {
 h5 { 
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+}
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
 }
 
 /*------------------------------   
@@ -214,7 +225,7 @@ section {
 }
 /* Portfolio */
 .projectPreview {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .projectPreview h2 {
     margin-top: 10px;
@@ -223,6 +234,7 @@ section {
     text-align: center;
     padding: 0 30px;
     margin: 0 10px 15px 0;
+    background-color: white;
     border-radius: 15px;
     border: solid #2F3A70;
     border-width: 5px;
@@ -272,8 +284,45 @@ section {
 }
 
 .ContactMediaBar {
-    margin: 20px auto 20px auto;
+    margin: 0px auto 0px auto;
 }
+
+.hr-text {
+    width: 35px;
+    position: relative;
+    top: -53px;
+    color: rgba(0,0,0,.2);
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.email-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #2F3A70;
+    padding: 2px 15px;
+
+    background-color: white;
+    border-radius: 15px;
+    border: solid #2F3A70;
+    border-width: 5px;
+    transition: border-radius .5s;
+    -webkit-transition: border-radius .5s;
+}
+.email-link:visited {
+    color: #2F3A70;
+}
+.email-link:hover {
+    border-color: #292929;
+    color: white !important;
+    background-color: #292929;
+    border-radius: 0;
+}
+
 /*-----------------------------------
             Footer
 ------------------------------------*/
