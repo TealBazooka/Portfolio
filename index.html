@@ -10,28 +10,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="css/templateStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target="nav">
     <header>
       <div class="container">
 
-          <div class="mobileSpacer" style="height: 20px"></div>
+        <div class="mobileSpacer" style="height: 20px"></div>
         <!-- CLICK ME!!! -->
         <img id="myLogo" class="headerLogo" src="images/AltLogo.gif" alt="Cory's logo">
 
         <!-- social media bar. Link off to new tabs -->
         <ul class="d-flex nav justify-content-around socialMediaBar">
           <li class="nav-item">
-            <a class="btn btn-primary btn-nav nav-link btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-primary btn-nav btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-twitter"></i></a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-primary btn-nav nav-link btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-primary btn-nav btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-facebook-f"></i></a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-primary btn-nav nav-link btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-primary btn-nav btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-behance"></i></a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-primary btn-nav nav-link btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-primary btn-nav btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-linkedin-in"></i></a>
           </li>
         </ul>
 
@@ -85,29 +86,19 @@
         <div class="row justify-content-center">
           <div class="col-md-10 col-12">
 
-            <div class="projectPreview row">
-              <img class="col-lg-7 col-12 imgFit" src="images/DogsWithoutBorders.gif" alt="">
-              <div class="col-lg-5 col-12 d-flex">
+            <div class="projectPreview row d-flex align-items-start">
+              <img class="col-12 imgFit" src="images/DogsWithoutBorders.gif" alt="">
+              <div class="col-12 d-flex">
                 <div class="col-12 justify-content-center">
-                  <h2>Project Title</h2>
+                  <h2>Dogs Without Borders - Website Redesign</h2>
                   <p>
-                    This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project.
+                    This is a school project redesign for a real charity's website. This was done in a group of 3 over the course of 4 weeks. For this project we developed personas, collected research, developed a problem statement, tackled said statmente with several iteration of prototypes and testing. To read the case study please click the case study button below.
                   </p>
+                  <a class="btn btn-project" href="">Prototype >></a>
+                  <a class="btn btn-project" href="">Case Study >></a>
                 </div>
               </div>
             </div>
-
-            <div class="projectPreview row">
-                <img class="col-lg-7 col-12 imgFit" src="images/EnergyGov.gif" alt="">
-                <div class="col-lg-5 col-12 d-flex">
-                  <div class="col-12 justify-content-center">
-                    <h2>Project Title</h2>
-                    <p>
-                      This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project. This is a description of this project.
-                    </p>
-                  </div>
-                </div>
-              </div>
 
           </div>
         </div>
@@ -188,13 +179,13 @@
         <h1>About Me</h1>
         <div class="row justify-content-center">
           <!-- Education -->
-          <div class="col-md-5 col-sm-10">
+          <div class="col-md-6 col-10">
             <!-- make a slideshow for multiple images -->
-            <img class="imgFit" src="images/coryslaught.gif" alt="Picture of Cory">
+            <img class="imgFit bio-img" src="images/coryslaught.gif" alt="Picture of Cory">
           </div>
   
           <!-- Skills and tools -->
-          <div class="col-md-5 col-sm-10">
+          <div class="col-10">
             <h2>Bio:</h2>
             <p>
                   I really love to be creative, whether I am making things or tackling tough puzzles, I love to approach projects from different angles to find the best solution. This is why I fell in love with games: video games, board games, and sports alike. They all give me an endless supply of puzzles to solve and challenges to apply myself to. My passion for games pushes me to add a twist of play to everything I make, so that other people can enjoy my work as much as I enjoy making it.
@@ -207,26 +198,47 @@
       <section id="contactMe">
         <a id="contactAnchor"></a>
         <h1>Contact Me</h1>
-        <form class="row justify-content-center">
-          <div class="form-group col-10">
-            <label for="email">Email address</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group col-10">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-group form-check col-10">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+
+        <div class="row col-md-10 col-12 mx-auto">
+          <ul class="nav justify-content-around socialMediaBar ContactMediaBar">
+            <li class="nav-item">
+              <a class="btn-project contact-link btn btn-primary btn-nav btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="btn-project contact-link btn btn-primary btn-nav btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="btn-project contact-link btn btn-primary btn-nav btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-behance"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="btn-project contact-link btn btn-primary btn-nav btn-socialMedia d-flex align-items-center justify-content-around" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+      
+          <form class="row justify-content-center">
+            <div class="form-group col-12">
+              <label for="email">Full Name:</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Full Name">
+            </div>
+            <div class="form-group col-12">
+              <label for="exampleInputPassword1">Subject:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter subject of email">
+            </div>
+            <div class="form-group col-12">
+              <label for="exampleFormControlTextarea1">Email Body:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="row col-12">
+              <button type="submit" class="btn btn-project clear">Submit</button>
+            </div>
+          </form>
+        </div>
       </section> 
       
     </div>
 
+    <footer></footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
