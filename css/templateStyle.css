@@ -13,11 +13,11 @@ body {
 }
 hr {
     height: 3px;
-    margin-bottom: 35px;    
+    margin: 20px 0 40px 0;    
     border-top: 2px solid rgba(0,0,0,.2)
 }
 .imgFit {
-    width: 100%;
+    max-width: 100%;
     overflow:hidden;
 }
 .sticky {
@@ -34,10 +34,21 @@ hr {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    margin-bottom: 20px;
 }
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+}
+h3 {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: -5px 0 15px 0;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
 }
 h5 { 
     font-family: 'Roboto', sans-serif;
@@ -133,9 +144,11 @@ nav {
 
 .btn-nav {
     color: #292929;
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 20px;
     background-color: white;
     border-color: white;
+    padding: .25em 1em;
     margin: 10px 0 0 0;
     transition: .3s;
 }
@@ -192,28 +205,28 @@ nav {
 #portfolioAnchor {
     display: block;
     position: relative;
-    top: -80px;
+    top: -90px;
     visibility: hidden;
 }
 
 #resumeAnchor {
     display: block;
     position: relative;
-    top: -80px;
+    top: -90px;
     visibility: hidden;
 }
 
 #aboutAnchor {
     display: block;
     position: relative;
-    top: -80px;
+    top: -90px;
     visibility: hidden;
 }
 
 #contactAnchor {
     display: block;
     position: relative;
-    top: -80px;
+    top: -90px;
     visibility: hidden;
 }
 
@@ -225,7 +238,7 @@ section {
 }
 /* Portfolio */
 .projectPreview {
-    margin-bottom: 0px;
+    margin-bottom: 80px;
 }
 .projectPreview h2 {
     margin-top: 10px;
@@ -269,8 +282,7 @@ section {
 }
 
 /* About Me */
-.bio-img {
-    border-radius: 15px;
+.about-img {
     margin-bottom: 15px;
 }
 
@@ -290,7 +302,7 @@ section {
 .hr-text {
     width: 35px;
     position: relative;
-    top: -53px;
+    top: -58px;
     color: rgba(0,0,0,.2);
     background-color: white;
     font-size: 18px;
